@@ -1,7 +1,10 @@
-import React from 'react'
-
-function Heading() {
-    return (
-        <h1>Welcome to our Site.</h1>
-    )
-}
+import React from 'react';
+  
+  const Heading = () =>  {
+	return (
+	  <div>
+	  </div>
+	);
+  }
+  
+export default Heading;

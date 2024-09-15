@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+  
+  const SubHeading = () =>  {
+	return (
+	  <div>
+	  </div>
+	);
+  }
+  
+export default SubHeading;
 
-function SubHeading() {
-    return (
-        <h5>Happy to solve you doubts.</h5>
-    )
-}

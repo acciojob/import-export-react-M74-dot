@@ -1,15 +1,19 @@
-import React, { Component, useState } from "react";
-import '../styles/App.css';
+import React from 'react';
+import Heading from './components/Heading';
+import SubHeading from './SubHeading';
+import InputQuery from './InputQuery';
+import SubmitButton from './SubmitButton';
+  
+  const App = () =>  {
+	return (
+	  <div>
+      <Heading/>
+        <SubHeading/>
+        <InputQuery/>
+        <SubmitButton/>
 
-const App = () => {
-  return (
-    <div id="main">
-      < />
-      < />
-      < />
-      < />
-    </div>
-  )
-}
-
-
+	  </div>
+	);
+  }
+  
+  export default App;
